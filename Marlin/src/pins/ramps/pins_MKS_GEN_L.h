@@ -51,3 +51,6 @@
 #endif
 
 #include "pins_RAMPS.h"
+
+#undef FAN1_PIN
+#define FAN1_PIN 4   // Additional cooling fan connected to the Servo4 connector
